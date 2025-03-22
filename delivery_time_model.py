@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open("delivery_time_model.pkl", "rb") as model_file:
+with open("delivery_time_model.py", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Streamlit UI
